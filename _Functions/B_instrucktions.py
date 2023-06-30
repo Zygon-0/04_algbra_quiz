@@ -1,0 +1,16 @@
+
+# requires 03_statement_generator
+
+# displays instructions
+def instructions():
+    statement_generator("Here are the rules", "-", 3)
+    print('''
+- ...
+- ...
+- ...
+- ...
+- ...
+
+Good Luck   
+    ''')
+    
